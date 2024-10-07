@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 //.env
-mongoose.connect("mongodb+srv://mk689417:yourkey@cluster0.2rvbnxg.mongodb.net/todos");
+mongoose.connect("your key");
 
 const todoSchema = mongoose.Schema({
     title : String,
